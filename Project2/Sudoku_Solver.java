@@ -4,7 +4,7 @@ public class Sudoku_Solver {
 	public static void main(String args[]) {
         // Your Code Here
         Scanner sc =new Scanner(System.in);
-        System.out.println("Enter the Sudoku Puzzle (Enter '0' in the blank spaces)");
+        System.out.println("Enter the Sudoku Puzzle (Enter '*' in the blank spaces)");
         int n =sc.nextInt();
         int [][]board=new int[n][n];
         for(int i=0; i<n; i++){
